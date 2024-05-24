@@ -1,5 +1,5 @@
 import React from 'react';
-import './VideoItem.css'; // Import the CSS file for styling
+import './VideoItem.css'; 
 
  const VideoItem = ({videoItemData}) => {
   

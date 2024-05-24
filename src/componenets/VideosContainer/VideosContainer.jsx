@@ -1,10 +1,9 @@
-import React, { useEffect, useState } from 'react';
-import getVideosData from '../../services/videos-service';
-import VideoItem from '../VideoItem/VideoItem';
 import { isEmpty } from 'lodash';
-import './VideosContainerStyle.css';
-import VideosFilter from '../VideoFilter/VideosFilter';
+import React, { useEffect, useState } from 'react';
 import getData from '../../services/videos-service';
+import VideosFilter from '../VideoFilter/VideosFilter';
+import VideoItem from '../VideoItem/VideoItem';
+import './VideosContainerStyle.css';
 
 const VideosContainer = () => {
   const [videosData, setVideosData] = useState([]);
