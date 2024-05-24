@@ -12,7 +12,7 @@ const VideosFilter = ({ searchText, setSearchText, selectedYear, setSelectedYear
   };
 
   const handleGenreRemove = (genre) => {
-    const generes = originGeneres.filter((g) => {return g.id.toString() !== genre.id})
+    const generes = originGeneres.filter((g) => {return g.id !== genre.id})
     setSelectedGenres(generes);
   };
 
