@@ -1,0 +1,32 @@
+.filters {
+    margin-bottom: 20px;
+  }
+  
+  .filters input[type="text"],
+  .filters select {
+    margin-right: 10px;
+    padding: 5px;
+  }
+  
+  .selected-genres {
+    margin-top: 10px;
+  }
+  
+  .selected-genre {
+    display: inline-block;
+    margin-right: 5px;
+    padding: 3px 5px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+  }
+  
+  .selected-genre button {
+    margin-left: 5px;
+    padding: 2px 5px;
+    background-color: #ccc;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  

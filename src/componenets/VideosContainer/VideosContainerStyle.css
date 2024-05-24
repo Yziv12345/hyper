@@ -1,0 +1,25 @@
+.videos-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.video-wrapper {
+  flex: 1 0 calc(100% / 3); /* 1 video per row, up to 3 */
+  max-width: calc(100% / 3);
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  .video-wrapper {
+    flex-basis: calc(100% / 2); /* 1 video per row, up to 2 on smaller screens */
+    max-width: calc(100% / 2);
+  }
+}
+
+@media (max-width: 480px) {
+  .video-wrapper {
+    flex-basis: 100%; /* 1 video per row on smallest screens */
+    max-width: 100%;
+  }
+}
